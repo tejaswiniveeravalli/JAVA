@@ -1,10 +1,8 @@
-import java.util.*;
 public class Main {
 
   public static void main(String[] args) {
-      System.out.println("Enter a positive number:");
-    Scanner sc=new Scanner(System.in);
-    int num=sc.nextInt();
+
+    int num = 29;
     boolean flag = false;
     for (int i = 2; i <= num / 2; ++i) {
       // condition for nonprime number
